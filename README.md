@@ -25,7 +25,7 @@ I'm excited to see how technology shapes our future, and I hope to continue maki
 </br>
 
 ### 🔭 I'm currently working on
-- <a href="onehq.com">onehq.com</a> 
+- <a href="https://onehq.com">onehq.com</a> 
 
 
 
