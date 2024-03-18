@@ -6,7 +6,7 @@ Hi there, I'm Diego Altamirano 👋
 </h1>
 
 <h2 align="center">
-Technical Project Manager | Business Analyst at OneHQ.com
+Technical Project Manager | Business Analyst at GitHub
 </h2> 
 
 
