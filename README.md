@@ -25,9 +25,7 @@ I'm excited to see how technology shapes our future, and I hope to continue maki
 </br>
 
 ### 🔭 I'm currently working on
-- <a href="https://onehq.com">onehq.com</a> 
-
-
+ <a href="https://github.com">   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" loading="lazy" width="92" height="28"> </a>
 
 ## 💼 Technical Skills
 ![Oracle](https://img.shields.io/static/v1?style=for-the-badge&message=Oracle&color=F80000&logo=Oracle&logoColor=FFFFFF&label=)
