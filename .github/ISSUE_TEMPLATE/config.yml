@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links: []
+issue_templates:
+  - name: Partner Onboarding Checklist
+    description: Checklist para asegurar el onboarding completo de un nuevo partner
+    title: "[Onboarding] "
+    labels: ["Onboarding", "Partner"]
+    assignees: ["PDM", "Operations"]
+    file: partner_onboarding.yml
