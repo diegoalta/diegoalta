@@ -5,7 +5,7 @@ labels:
   - Onboarding
   - Partner
 assignees:
-  - @diegoalta
+  - "@diegoalta"
 
 body:
   - type: markdown
