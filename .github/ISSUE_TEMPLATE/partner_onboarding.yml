@@ -1,0 +1,116 @@
+name: Partner Onboarding Checklist
+description: Checklist para dar de alta a un nuevo partner
+title: "[Onboarding] "
+labels:
+  - Onboarding
+  - Partner
+assignees:
+  - @diegoalta
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Partner Onboarding Checklist
+
+        Usá esta plantilla para llevar el seguimiento del onboarding de un nuevo partner. Marcá las tareas a medida que se completen para garantizar un proceso fluido.
+
+  - type: markdown
+    attributes:
+      value: "### 1. Access to Systems"
+  - type: checkboxes
+    id: access
+    attributes:
+      label: Acceso a sistemas
+      options:
+        - label: Request Partner Account in SFDC
+          description: Ensure the partner is registered in Salesforce for system integration.
+        - label: Sync Partner Account in SFDC with Partner Portal
+          description: Enable API call to sync the partner account with the portal.
+        - label: Grant Partner Access to the Supplier Web Portal
+          description: Provide access to financial tools like invoicing and reporting.
+        - label: Assign Partner Portal Admin Role
+          description: Allow the partner to manage user access and permissions.
+        - label: Confirm Successful Login and Portal Navigation
+          description: Validate partner access and usability of the portal.
+
+  - type: markdown
+    attributes:
+      value: "### 2. Financial Setup"
+  - type: checkboxes
+    id: financial
+    attributes:
+      label: Configuración financiera
+      options:
+        - label: Collect and Verify Banking Information
+          description: Ensure accurate payment processing.
+        - label: Obtain Necessary Tax Documents
+          description: Comply with tax requirements (e.g., W-9, W-8BEN).
+        - label: Define and Communicate Payment Schedules
+          description: Share clear payment expectations.
+        - label: Explain Invoice Submission Process
+          description: Guide the partner on proper invoicing procedures.
+
+  - type: markdown
+    attributes:
+      value: "### 3. Legal"
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: Legal
+      options:
+        - label: Ensure Contracts are Signed
+          description: Secure agreements between the partner and the company.
+        - label: Provide Partners with Terms and Conditions
+          description: Clarify applicable policies for all processes.
+
+  - type: markdown
+    attributes:
+      value: "### 4. Enablement"
+  - type: checkboxes
+    id: enablement
+    attributes:
+      label: Capacitación y contacto
+      options:
+        - label: Assign a Dedicated Point of Contact
+          description: Ensure smooth communication and support.
+        - label: Establish Communication Channels
+          description: Define preferred methods for interaction.
+
+  - type: markdown
+    attributes:
+      value: "### 5. MDF and Incentive Payments"
+  - type: checkboxes
+    id: mdf
+    attributes:
+      label: MDF e incentivos
+      options:
+        - label: Define MDF Eligibility Criteria
+          description: Establish clear guidelines for fund allocation.
+        - label: Explain MDF Application Process
+          description: Simplify partner submissions.
+        - label: Set Up and Verify Payment Methods
+          description: Ensure partners can receive payments promptly.
+
+  - type: markdown
+    attributes:
+      value: "### 6. Rebate Payments"
+  - type: checkboxes
+    id: rebates
+    attributes:
+      label: Reembolsos y rebates
+      options:
+        - label: Define Rebate Eligibility Criteria
+          description: Guidelines for eligibility for metered billing and deal reg rebates.
+        - label: Explain Rebate Payment Process
+          description: Steps and documents required for rebate processing.
+        - label: Communicate Payment Schedules for Rebates
+          description: Share expected timelines for rebate disbursements.
+        - label: Set Up and Verify Rebate Payment Methods
+          description: Ensure payment details are correctly configured.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Notas adicionales, bloqueos o comentarios del equipo.
